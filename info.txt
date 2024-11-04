@@ -1,0 +1,61 @@
+	1.	Hero and Level Information:
+
+	+	player_0_hero: The specific hero that player 0 has chosen.
+	+	player_0_m_iCurrentLevel: The hero’s current level.
+	+	player_0_m_iCurrentXP: The current experience points of the hero, contributing to leveling up.
+
+	2.	Health, Mana, and Status:
+
+	+	player_0_m_iHealth and player_0_m_iMaxHealth: The current and maximum health of the hero.
+	+	player_0_m_flMana and player_0_m_flMaxMana: The current and maximum mana of the hero.
+	+	player_0_m_flHealthRegen and player_0_m_flManaRegen: The health and mana regeneration rates.
+	+	player_0_m_lifeState: The life state of the hero (e.g., alive, dead).
+	+	player_0_m_bIsMoving: Indicates if the hero is currently moving.
+
+	3.	Abilities:
+
+	•	player_0_m_hAbilities.0000 to player_0_m_hAbilities.0034: These fields list the hero’s available abilities. Each numbered field represents a specific ability slot.
+	•	player_0_m_iSpecialAbility: Could denote a special ability specific to the hero or state of an ability (like ultimate readiness).
+
+	4.	Combat Stats:
+
+	+	player_0_m_nTotalDamageTaken: The total damage taken by the hero so far.
+	+	player_0_m_iAttackRange: The attack range of the hero.
+	+	player_0_m_iDamageMin and player_0_m_iDamageMax: The minimum and maximum base damage of the hero’s attack.
+	+	player_0_m_iDamageBonus: Additional bonus damage, possibly from items or buffs.
+
+	5.	Position and Movement:
+
+	•	player_0_CBodyComponent.m_cellX, m_cellY, m_cellZ: Positioning coordinates within the game’s cell structure.
+	•	player_0_CBodyComponent.m_vecX, m_vecY, m_vecZ: The hero’s positional vector, likely representing its current location.
+	+	player_0_m_MoveType: The movement type, such as ground, flying, etc.
+	+	player_0_m_MoveCollide: Collision state of the hero in movement (for interacting with obstacles).
+
+	6.	Visibility and Team Information:
+
+	+	player_0_m_iTaggedAsVisibleByTeam: Indicates if the hero is visible to other teams.
+	•	player_0_m_iTeamNum: The team number the hero is assigned to.
+	+	player_0_m_bVisibleinPVS: Part of the visibility system; might indicate if the hero is within a Potentially Visible Set (PVS) for rendering.
+
+	7.	Player Stats:
+
+	•	player_0_m_iPlayerID: A unique identifier for the player.
+	+	player_0_m_iAbilityPoints: Number of ability points the player has available to spend on leveling up abilities.
+	+	player_0_m_iGoldBountyMin and player_0_m_iGoldBountyMax: The minimum and maximum gold bounty rewarded for killing this unit or hero.
+	+	player_0_m_iXPBounty: Experience bounty for defeating the hero.
+
+	8.	Inventory:
+
+	+	player_0_m_hItems.0000 to player_0_m_hItems.0018: Represents items held by the hero, where each numbered field likely corresponds to a specific inventory slot.
+	
+    9.	Animation and Rendering:
+	•	player_0_CBodyComponent.m_flScale: Scale factor applied to the character model.
+	•	player_0_CBodyComponent.m_nNewSequenceParity: Sequence parity for animations, often used to sync animations.
+	•	player_0_m_nRenderMode: Render mode (e.g., normal, translucent).
+    
+	10.	Special Attributes and Flags:
+
+	+	player_0_m_iAttackCapabilities: Specifies if the hero has melee or ranged attack capabilities.
+	•	player_0_m_bCanUseAllItems: Indicates if the hero can use all available items.
+	•	player_0_m_bStashEnabled: Determines if the hero has access to their stash for additional item storage.
+	•	player_0_m_bIsAncient, player_0_m_bIsBossCreature: Flags indicating special unit types, like bosses or ancients.
