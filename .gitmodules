@@ -1,0 +1,3 @@
+[submodule "CS584_Game_Parsers"]
+	path = CS584_Game_Parsers
+	url = https://github.com/srl3630/CS584_Game_Parsers
