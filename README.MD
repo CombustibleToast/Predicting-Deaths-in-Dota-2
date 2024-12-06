@@ -47,7 +47,7 @@ To parse results, we utilized the [Clarity](https://github.com/skadistats/clarit
 `python3 run.py <input folder> <output folder>`
 
 # Dataset Links:
-- [Raw Dataset](https://drive.google.com/drive/u/0/folders/1BhPDWVsEoONzgv8mJaPm0vxTkEls5tdg) (Raw replay files from Dota 2 .dem.bz2)
+- [Raw Dataset](https://drive.google.com/drive/u/0/folders/1BhPDWVsEoONzgv8mJaPm0vxTkEls5tdg) (Raw replay files from Dota 2 .dem.bz2 files)
 - [Parsed Replays](https://drive.google.com/drive/u/0/folders/10GY-Z_bzzpBv2IYb3bJyrPCzLxcqwwfh) (.CSV format)
 - [Processed CSVs](https://drive.google.com/drive/u/0/folders/1aE0tIW2qA6lz4NDHtfyODJOi9ATQS1oX) (.CSV format)
 - [Training Data](https://drive.google.com/drive/u/0/folders/1TKzBp9inrMeUl_YeN2scXc4pKwJBgAjb) (.CSV format)
