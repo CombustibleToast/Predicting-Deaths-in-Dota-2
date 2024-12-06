@@ -25,7 +25,7 @@ Potential applications for this research include informing real time, in game, d
 
 # Parser
 
-To parse results, we utilized the [Clarity](https://github.com/skadistats/clarity)(a Java parsing library for Dota .dem match files) as a base to create a custom parser. This allows extraction of .dem files (default encoded format of Dota 2 files) to easily readable CSV files for use in model prediction. The [custom Clarity parser](https://github.com/srl3630/CS584_Game_Parsers/tree/main) can be found here.
+To parse results, we utilized the [Clarity](https://github.com/skadistats/clarity) (a Java parsing library for Dota .dem match files) as a base to create a custom parser. This allows extraction of .dem files (default encoded format of Dota 2 files) to easily readable CSV files for use in model prediction. The [custom Clarity parser](https://github.com/srl3630/CS584_Game_Parsers/tree/main) can be found here.
 
 # Reproducing Results with Provided Data:
 1) Install python requirements (`pip3 install -r requirements.txt`)
