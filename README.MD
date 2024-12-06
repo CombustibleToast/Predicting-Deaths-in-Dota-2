@@ -12,7 +12,7 @@
 
 The following is a proposed method for predictive analysis of deaths in Dota for identifying potentially risky scenarios in Dota 2.
 
-The method performs predictions on player_0 in the dataset. Data formatting can be viewed in the [Processed CSVs](https://drive.google.com/drive/u/0/folders/1aE0tIW2qA6lz4NDHtfyODJOi9ATQS1oX) used in our dataset. The model uses 422 features for model prediction, but was tested using less with >80% results.
+The method performs predictions on player_0 in the dataset. Data formatting can be viewed in the [Processed CSVs](https://drive.google.com/drive/u/0/folders/1aE0tIW2qA6lz4NDHtfyODJOi9ATQS1oX) used in our dataset. The model uses 422 features for model prediction, but was tested using less features  with >80% F1 score result.
 
 Models explored include
 - K Nearest Neighbors
