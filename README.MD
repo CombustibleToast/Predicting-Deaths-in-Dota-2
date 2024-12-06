@@ -1,4 +1,4 @@
-Predicting Player Deaths in Dota 2 using Machine Learning
+# Predicting Player Deaths in Dota 2 using Machine Learning
 
 ### Contents
 - [Introduction](#introduction)
